@@ -22,7 +22,7 @@
       </div>
       <div v-if="isVisible">
         <div class="modal" >
-          <ModelVue medium>
+          <ModelVue >
             <template v-slot:header>
               <h1>{{ title }}</h1>
               <span @click="minimize" class="material-icons close">close</span>
